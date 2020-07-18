@@ -18,3 +18,11 @@ table th {
 .header{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.keys{
+    cursor: pointer;
+}
+
+.active{
+    background: rgb(102, 207, 193);
+}

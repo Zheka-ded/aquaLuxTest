@@ -1,5 +1,4 @@
 function fillTestData(){
-    // keys = ['date', 'number'];
     keys = ['date', 'number', 'string'];
     let data = [];
     let getRand = (min, max) => Math.floor(Math.random() * (max - min)) + min;
@@ -28,7 +27,3 @@ function fillTestData(){
         data: data
     }
 }
-
-// console.log(fillTestData0())
-
-// console.log(fillTestData().data)
